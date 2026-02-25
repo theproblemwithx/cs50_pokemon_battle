@@ -1,11 +1,11 @@
 # CS50 Final Project
-## Author: Carlos Faustino Mar Díaz
+## Author: Carlos M
 
 ### Title: Pokemon Battle Simulator
 
 #### Motivation
 
-At first I wanted to create a web player trying to emulate Spotify, but quickly realized that while interesting and challenging, that might take more time than the one I had left in the year. Besides, I am planning on completing CS50 Web after this, so that project seemed more appropriate for that course. I decided to move on and complete a project in C, since it would involve less of a learning curve and it could provide greater reinforcement on all the topics covered during the first five weeks of CS50x.
+At first I wanted to create a web player trying to emulate Spotify, but quickly realized that while interesting and challenging, that might take more time than what I had left in the year. Besides, I am planning on completing CS50 Web after this, so that project seemed more appropriate for that course. I decided to move on and complete a project in C, since it would involve less of a learning curve and it could provide greater reinforcement on all the topics covered during the first five weeks of CS50x.
 
 I am also enrolled in a BS of Computer Science in Mexico, and our first programming class involved programming with C. While that class has already finished, I decided to dedicate the rest of the time in the year to reviewing C and reading a C book (C Programming - A Modern Approach). This is the project that I originally wanted to create for that class, but did not have the time to tackle it. Instead I ended up creating a simpler Pokemon trivia game.
 
