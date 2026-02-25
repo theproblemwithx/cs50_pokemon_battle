@@ -1,5 +1,3 @@
-# cs50_pokemon_battle
-Final project for CS50
 # CS50 Final Project
 ## Author: Carlos Faustino Mar Díaz
 
@@ -20,13 +18,13 @@ The second source of inspiration was the Nintendo 64 game titled "Pokemon Stadiu
 #### Key Challenges
 The two main challenges for this project were how to store Pokemon and their related moves, and how the main battle logic would work.
 
-For storage, I decided to create two structs, one for Pokemon and one for their respective moves. The current limitation is that these have to me manually populated. A better program would be one that could read from a text file, randomly select Pokemon, and populate the structs with that information.
+For storage, I decided to create two structs, one for Pokemon and one for their respective moves. The current limitation is that these have to be manually populated. A better program would be one that could read from a text file, randomly select Pokemon, and populate the structs with that information. Another option could be to have the 151 already set, and ask the user for their selection.
 
 The Pokemon struct contains the name, type, level, hp, Moves struct and an array of weaknesses. These are accessed during battle to give options to the user and move the game forward.
 
 The Moves struct contains the attacks that each Pokemon has, the power, type, and accuracy. This last item is not used in the current code, but could be adapted to add interactivity.
 
-Once these were set, the challenge was how to start the battle and access each Pokemon's moves. I created functions for most of the logic, but left most of the battle logic in main since I thought it would make the general flow clearer, and since this is were most of the game happens.
+Once these were set, the challenge was how to start the battle and access each Pokemon's moves. I created functions for most of the actions, but left most of the battle logic in main since I thought it would make the general flow clearer, and since this is where most of the game happens.
 
 #### How to Use
 The general structure of the game is straigthforward. After compiling and running the program, the user is greeted and asked for their name. They are given a list of 6 Pokemon from which they can choose only one. The opponent and their Pokemon are chosen at random, and this information is presented to the user.
@@ -62,5 +60,3 @@ The following items are nice things for the project to have that I originally th
 * Options for using Items (Potion, Heal)
 * Expand attack side-effects (Poisoned, Burned, Sleep, etc.) and modify HP accordingly
 * Attack can miss based on accuracy from the Moves struct
-
-
