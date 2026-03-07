@@ -13,6 +13,7 @@ I am also enrolled in a BS of Computer Science in Mexico, and our first programm
 This project attempts to recreate the battle structure of the original Pokemon GameBoy games. These were developed by GameFreak and Nintendo and released in the 1990s. The GameBoy games were originally written in a mixture of C and Assembly language, according to sources found online.
 
 The second source of inspiration was the Nintendo 64 game titled "Pokemon Stadium". In this game, players were given the option to do "Instant Battles" where a pre-defined set of 12 Pokemon were presented, and the player could choose 3 for a battle against another player or the CPU. These Pokemon would all be the same level with pre-defined moves.
+
 ![Pokemon Stadium Batle Example](https://gandoriongames.com/cdn/shop/products/Pokemon_Stadium_Nintendo_64_-_Gandorion_Games_d36a2cff-917b-4a29-a289-bb43d5573ab4-409443.jpg?v=1705420352)
 
 #### Key Challenges
@@ -34,6 +35,7 @@ The user gets 4 options, as per the original GameBoy game:
 * PKMN
 * ITEM
 * RUN
+
 ![Pokemon fight example](https://cdn.theouterhaven.net/wp-content/uploads/2016/02/N3DS_PokemonYellow_02.jpg)
 
 Due to time constraints, only the FIGHT option works for now. The other 3 options print a message to the user and return to the selection menu, until the user chooses to fight.
